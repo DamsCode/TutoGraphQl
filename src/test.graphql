@@ -1,0 +1,7 @@
+query {
+    link(id: "link-0"){
+        id
+        description
+        url
+    }
+}
