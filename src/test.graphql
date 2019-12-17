@@ -1,7 +1,12 @@
-query {
-    link(id: "link-0"){
-        id
-        description
-        url
+mutation {
+    signup(
+        name: "Damien"
+        email: "d.macors@gmail.com"
+        password: "graphql"
+    ) {
+        token
+        user {
+            id
+        }
     }
 }
